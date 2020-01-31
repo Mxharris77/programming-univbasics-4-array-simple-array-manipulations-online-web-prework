@@ -36,9 +36,6 @@ describe "using_pop" do
     expect(@deleted_string).to eq("Antarctica")
   end
 
-  it "decreases the length of the array by 1" do 
-    expect(@continents.size).to eq(6)
-  end
 end
 
 describe "pop_with_args" do
